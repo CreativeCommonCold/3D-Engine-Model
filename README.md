@@ -37,12 +37,6 @@ python3 -m http.server 8000
 # откройте http://localhost:8000
 ```
 
-## Публикация на GitHub Pages
-
-1. Создайте репозиторий и загрузите файлы.
-2. **Settings → Pages → Build and deployment**: источник `Deploy from a branch`, ветка `main`, папка `/ (root)`.
-3. Через минуту страница откроется по адресу `https://<ваш-логин>.github.io/<имя-репозитория>/`.
-
 ## Технологии
 
 HTML, CSS, JavaScript без сборки, three.js r128 (CDN), Canvas 2D для приборов, Web Audio API для звука, `localStorage` для пробега и выбранного режима.
